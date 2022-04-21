@@ -1,0 +1,29 @@
+{
+  "name": "songbook",
+  "version": "0.0.1",
+  "description": "The latest attempt to create a complete solution for managing and sharing chords and lyrics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest \".?\\.test\\.[tj]s\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frederikheld/songbook.git"
+  },
+  "keywords": [
+    "chords",
+    "guitar",
+    "lyrics",
+    "songbook",
+    "cli"
+  ],
+  "author": "Frederik S. Held (kontakt@frederikheld.de)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/frederikheld/songbook/issues"
+  },
+  "homepage": "https://github.com/frederikheld/songbook#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
