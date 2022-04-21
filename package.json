@@ -1,29 +1,40 @@
 {
-  "name": "songbook",
-  "version": "0.0.1",
-  "description": "The latest attempt to create a complete solution for managing and sharing chords and lyrics.",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest \".?\\.test\\.[tj]s\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/frederikheld/songbook.git"
-  },
-  "keywords": [
-    "chords",
-    "guitar",
-    "lyrics",
-    "songbook",
-    "cli"
-  ],
-  "author": "Frederik S. Held (kontakt@frederikheld.de)",
-  "license": "GPL-3.0-or-later",
-  "bugs": {
-    "url": "https://github.com/frederikheld/songbook/issues"
-  },
-  "homepage": "https://github.com/frederikheld/songbook#readme",
-  "devDependencies": {
-    "jest": "^27.5.1"
-  }
+    "name": "songbook",
+    "version": "0.0.1",
+    "description": "The latest attempt to create a complete solution for managing and sharing chords and lyrics.",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest \".?\\.test\\.[ts|js]\"",
+        "lint": "eslint \"**/*.{ts,js}\"",
+        "lint:fix": "npm run lint -- --fix"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/frederikheld/songbook.git"
+    },
+    "keywords": [
+        "chords",
+        "guitar",
+        "lyrics",
+        "songbook",
+        "cli"
+    ],
+    "author": "Frederik S. Held (kontakt@frederikheld.de)",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/frederikheld/songbook/issues"
+    },
+    "homepage": "https://github.com/frederikheld/songbook#readme",
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.20.0",
+        "@typescript-eslint/parser": "^5.20.0",
+        "eslint": "^8.13.0",
+        "eslint-config-standard": "^17.0.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-jest": "^26.1.4",
+        "eslint-plugin-n": "^15.1.0",
+        "eslint-plugin-promise": "^6.0.0",
+        "eslint-plugin-vue": "^8.6.0",
+        "jest": "^27.5.1"
+    }
 }
